@@ -1,0 +1,21 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+*.log
+
+# production
+build
+cdk.out
+cdk.config.d.ts
+
+src/config/config.json
+src/config/config.d.ts
+
+# misc
+.DS_Store
+
+.env.local
+
+# editor
+.idea
